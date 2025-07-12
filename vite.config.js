@@ -12,7 +12,7 @@ export default defineConfig({
     vueDevTools(),
   ],
    build: {
-    outDir: 'dist/webapp/res' // This sets the full output path
+    outDir: 'dist/webapp/res' // This sets the full output path and update the build setting according
   },
   resolve: {
     alias: {
